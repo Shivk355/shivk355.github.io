@@ -1,0 +1,180 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+body{
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+  color: #757575 !important;
+}
+
+#intro {
+    background: url("../img/banner.png")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#intro .card {
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px -3px #000;
+  -moz-box-shadow: 0px 0px 20px -3px #000;
+  -webkit-box-shadow: 0px 0px 20px -3px #000;
+}
+
+#intro .card-body {
+  padding: 0rem 1.25rem;
+}
+.banner-head {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.btn-pdf {
+  background-color: #D9484A;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+}
+
+.header .card-head {
+  border-radius: 5px 5px 0 0;
+  background: #002387;
+}
+
+.documents-card-head {
+  background: #D9484A;
+}
+
+#route-advantage {
+  background-color: #284c74;
+  color: #fff;
+}
+
+#what-we-offer .card {
+  /* width: 75%; */
+  height: 450px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(237, 41, 57);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(237, 41, 57);
+}
+
+#what-we-offer .header {
+  padding: 1rem;
+  height: 50px;
+}
+
+#what-we-offer .card-body p {
+  padding-top: 1rem;
+}
+
+.btn-rounded {
+    border-radius: 10em;
+}
+
+.btn-primary {
+    background-color: #002387 !important;
+}
+
+.pdf {
+  margin: 0 15%;
+  border: 1px solid #ddd; 
+  border-radius: 100px;
+    box-shadow: 0px 10px 53px -35px #002386;
+    -webkit-box-shadow: 0px 10px 53px -35px #002386;
+    -moz-box-shadow: 0px 10px 53px -35px #002386;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 0;
+}
+
+/* Process */
+#process {
+  background: #FAFAFF;
+}
+
+.blue-text {
+  color: #002387 !important;
+}
+
+.red-text {
+  color: #D9484A;
+}
+
+.card:hover {
+  -ms-transform: scale(1.01); /* IE 9 */
+  -webkit-transform: scale(1.01); /* Safari 3-8 */
+  transform: scale(1.01); 
+}
+
+.term-conditions .btn {
+  border: 1px solid #fff;
+  border-radius: 40px;
+}
+
+.unique-color-dark {
+  background-color: #1c070a !important;
+}
+
+.footer-color {
+  background-color: #393939;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #24355C;
+  }
+
+  .pdf {
+    margin: 0;
+    clear: both;
+  }
+
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #24355C;
+  }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+  .banner-head {
+    position: relative;
+  }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .banner-head h1 {
+    font-weight: bold;
+    font-size: 4rem;
+  }
+
+  .banner-head h3, .in {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .banner-head h1 {
+      font-weight: bold;
+      font-size: 5rem;
+    }
+
+    .banner-head h3, .in {
+      font-weight: bold;
+      font-size: 2.5rem;
+    }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
